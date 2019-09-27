@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-navbar color="primaryColor">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="CloseSession()">
+        <ion-icon name="md-log-out"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="fondo">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-slides pager>
+
+          <ion-slide style="background-color: #c3fdff">
+            <ion-card>
+              <img src="../../assets/icon/Iconos/pilar.png" />
+              <ion-card-content>
+                <ion-card-title class="card-title">Pilares de la Seguridad Informática</ion-card-title>
+              </ion-card-content>
+            </ion-card>
+            <br />
+          </ion-slide>
+
+          <ion-slide style="background-color: #c3fdff">
+            <ion-card>
+              <img src="../../assets/icon/Iconos/contraseña.png" />
+              <ion-card-content>
+                <ion-card-title class="card-title">Disponibilidad</ion-card-title>
+                <ion-card-content class="card-subtitle">El especto de disponibilidad se entiende como aquella
+                  información
+                  a la que podemos
+                  acceder cuando la necesitamos a través de los canales adecuados siguiendo los procesos correctos.
+                </ion-card-content>
+              </ion-card-content>
+            </ion-card>
+            <br />
+          </ion-slide>
+
+          <ion-slide style="background-color: #c3fdff">
+            <ion-card>
+              <img src="../../assets/icon/Iconos/controles.png" />
+              <ion-card-content>
+                <ion-card-title class="card-title">Integridad</ion-card-title>
+                <ion-card-content class="card-subtitle">La integridad hace referencia a la cualidad de la información
+                  para
+                  ser correcta y no
+                  haber sido modificada, manteniendo sus datos exactamente tal cual fueron generados, sin manipulaciones
+                  ni alteraciones por parte de terceros.</ion-card-content>
+              </ion-card-content>
+            </ion-card>
+            <br />
+          </ion-slide>
+
+          <ion-slide style="background-color: #c3fdff">
+            <ion-card>
+              <img src="../../assets/icon/Iconos/seguridad.png" />
+              <ion-card-content>
+                <ion-card-title class="card-title">Confidencialidad</ion-card-title>
+                <ion-card-content class="card-subtitle">Se trata básicamente de la propiedad por la que esa información
+                  solo resultará accesible
+                  con la debida y comprobada autorización.</ion-card-content>
+              </ion-card-content>
+              <div class="button-content">
+                  <button ion-button outline round secondary menuToggle>Iniciar</button>
+              </div>
+            </ion-card>
+            <br />
+          </ion-slide>
+
+        </ion-slides>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <a>
+    https://www.firma-e.com/blog/pilares-de-la-seguridad-de-la-informacion-confidencialidad-integridad-y-disponibilidad/
+  </a>
+
+</ion-content>

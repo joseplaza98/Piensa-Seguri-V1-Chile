@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Tema1_1Page } from '../tema1-1/tema1-1';
 import { Tema1_2Page } from '../tema1-2/tema1-2';
 import { Tema1_3Page } from '../tema1-3/tema1-3';
+import { Eva1Cap1Page } from '../../../Actividades de retroalimentacion/Evaluaciones/eva1-cap1/eva1-cap1';
 
 /**
  * Generated class for the SelectT1Page page.
@@ -35,6 +36,10 @@ export class SelectT1Page {
 
   aTema1_3(){
     this.navCtrl.push(Tema1_3Page);
+  }
+
+  aEva1_cap1(){
+    this.navCtrl.push(Eva1Cap1Page);
   }
 
 }

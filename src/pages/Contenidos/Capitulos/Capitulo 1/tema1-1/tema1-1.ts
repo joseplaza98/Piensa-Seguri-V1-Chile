@@ -5,7 +5,7 @@ import { Tema1_1bPage } from '../Contenidos Tema 1-1/tema1-1b/tema1-1b';
 import { Tema1_1cPage } from '../Contenidos Tema 1-1/tema1-1c/tema1-1c';
 import { Tema1_1dPage } from '../Contenidos Tema 1-1/tema1-1d/tema1-1d';
 import { Tema1_1ePage } from '../Contenidos Tema 1-1/tema1-1e/tema1-1e';
-import { SelecPage } from '../../Selecciones/selec/selec';
+import { Cap1_1aPage } from '../../../Actividades de retroalimentacion/Actividades Cap1/cap1-1a/cap1-1a';
 
 /**
  * Generated class for the Tema1_1Page page.
@@ -48,8 +48,8 @@ export class Tema1_1Page {
     this.navCtrl.push(Tema1_1ePage);
   }
 
-  aSeleccionActividades() {
-    this.navCtrl.push(SelecPage)
+  aAct1_1a(){
+    this.navCtrl.push(Cap1_1aPage);
   }
 
 }

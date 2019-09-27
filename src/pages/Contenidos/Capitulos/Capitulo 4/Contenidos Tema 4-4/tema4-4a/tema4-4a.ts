@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Cap4_1bPage } from '../../../../Actividades de retroalimentacion/Actividades Cap4/cap4-1b/cap4-1b';
 
 /**
  * Generated class for the Tema4_4aPage page.
@@ -16,6 +17,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class Tema4_4aPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  aAct4_1b(){
+    this.navCtrl.push(Cap4_1bPage);
   }
 
   ionViewDidLoad() {

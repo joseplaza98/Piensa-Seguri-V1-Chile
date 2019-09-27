@@ -3,7 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Tema2_1aPage } from '../Contenidos Tema 2-1/tema2-1a/tema2-1a';
 import { Tema2_2aPage } from '../Contenidos Tema 2-2/tema2-2a/tema2-2a';
 import { Tema2_3aPage } from '../Contenidos Tema 2-3/tema2-3a/tema2-3a';
-import { SelecPage } from '../../Selecciones/selec/selec';
+import { Eva1Cap2Page } from '../../../Actividades de retroalimentacion/Evaluaciones/eva1-cap2/eva1-cap2';
 
 /**
  * Generated class for the Tema2_1Page page.
@@ -38,7 +38,7 @@ this.navCtrl.push(Tema2_1aPage);
     this.navCtrl.push(Tema2_3aPage);
   }
 
-  aActividades_T2(){
-    this.navCtrl.push(SelecPage);
+  aEval1_cap2(){
+    this.navCtrl.push(Eva1Cap2Page);
   }
 }

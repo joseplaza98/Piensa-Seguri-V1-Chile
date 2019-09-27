@@ -22,6 +22,33 @@ import { EstadisticasPage } from '../pages/Contenidos/estadisticas/estadisticas'
 import { AyudasPage } from '../pages/Contenidos/ayudas/ayudas';
 import { AcercaDePage } from '../pages/Contenidos/acerca-de/acerca-de';
 
+/**Actividades y evaluaciones */
+
+/**Evaluaciones */
+import { Eva1Cap1Page } from '../pages/Contenidos/Actividades de retroalimentacion/Evaluaciones/eva1-cap1/eva1-cap1';
+import { Eva1Cap2Page } from '../pages/Contenidos/Actividades de retroalimentacion/Evaluaciones/eva1-cap2/eva1-cap2';
+import { Eva1Cap3Page } from '../pages/Contenidos/Actividades de retroalimentacion/Evaluaciones/eva1-cap3/eva1-cap3';
+import { Eva1Cap4Page } from '../pages/Contenidos/Actividades de retroalimentacion/Evaluaciones/eva1-cap4/eva1-cap4';
+
+/**Capitulo 1 */
+import { Cap1_1aPage } from '../pages/Contenidos/Actividades de retroalimentacion/Actividades Cap1/cap1-1a/cap1-1a';
+import { Cap1_1bPage } from '../pages/Contenidos/Actividades de retroalimentacion/Actividades Cap1/cap1-1b/cap1-1b';
+import { Cap1_1cPage } from '../pages/Contenidos/Actividades de retroalimentacion/Actividades Cap1/cap1-1c/cap1-1c';
+import { Cap1_1dPage } from '../pages/Contenidos/Actividades de retroalimentacion/Actividades Cap1/cap1-1d/cap1-1d';
+import { Cap1_1ePage } from '../pages/Contenidos/Actividades de retroalimentacion/Actividades Cap1/cap1-1e/cap1-1e';
+import { Cap1_1fPage } from '../pages/Contenidos/Actividades de retroalimentacion/Actividades Cap1/cap1-1f/cap1-1f';
+import { Cap1_1gPage } from '../pages/Contenidos/Actividades de retroalimentacion/Actividades Cap1/cap1-1g/cap1-1g';
+/**Capitulo 2 */
+import { Cap2_1aPage } from '../pages/Contenidos/Actividades de retroalimentacion/Actividades Cap2/cap2-1a/cap2-1a';
+import { Cap2_1bPage } from '../pages/Contenidos/Actividades de retroalimentacion/Actividades Cap2/cap2-1b/cap2-1b';
+import { Cap2_1cPage } from '../pages/Contenidos/Actividades de retroalimentacion/Actividades Cap2/cap2-1c/cap2-1c';
+/**Capitulo 3 */
+import { Cap3_1aPage } from '../pages/Contenidos/Actividades de retroalimentacion/Actividades Cap3/cap3-1a/cap3-1a';
+import { Cap3_1bPage } from '../pages/Contenidos/Actividades de retroalimentacion/Actividades Cap3/cap3-1b/cap3-1b';
+/**Capitulo 4 */
+import { Cap4_1aPage } from '../pages/Contenidos/Actividades de retroalimentacion/Actividades Cap4/cap4-1a/cap4-1a';
+import { Cap4_1bPage } from '../pages/Contenidos/Actividades de retroalimentacion/Actividades Cap4/cap4-1b/cap4-1b';
+
 /**Selecciones */
 import { SeleccionCapituloPage } from '../pages/Contenidos/Capitulos/Selecciones/seleccion-capitulo/seleccion-capitulo';
 import { SelecPage } from '../pages/Contenidos/Capitulos/Selecciones/selec/selec';
@@ -77,12 +104,12 @@ import { Tema3_2bPage } from '../pages/Contenidos/Capitulos/Capitulo 3/Contenido
 
 /**Actividad y comandos Tema 3-2 */
 /**Nmap */
-import { ComandosNmapPage } from '../pages/Contenidos/Capitulos/Capitulo 3/Actividades Capitulo 3/Nmap/comandos-nmap/comandos-nmap';
-import { PracticaNmapPage } from '../pages/Contenidos/Capitulos/Capitulo 3/Actividades Capitulo 3/Nmap/practica-nmap/practica-nmap';
+import { ComandosNmapPage } from '../pages/Contenidos/Capitulos/Capitulo 3/Talleres Capitulo 3/Nmap/comandos-nmap/comandos-nmap';
+import { PracticaNmapPage } from '../pages/Contenidos/Capitulos/Capitulo 3/Talleres Capitulo 3/Nmap/practica-nmap/practica-nmap';
 
 /**NetCat */
-import { ComandosNetCatPage } from '../pages/Contenidos/Capitulos/Capitulo 3/Actividades Capitulo 3/NetCat/comandos-net-cat/comandos-net-cat';
-import { PracticaNetCatPage } from '../pages/Contenidos/Capitulos/Capitulo 3/Actividades Capitulo 3/NetCat/practica-net-cat/practica-net-cat';
+import { ComandosNetCatPage } from '../pages/Contenidos/Capitulos/Capitulo 3/Talleres Capitulo 3/NetCat/comandos-net-cat/comandos-net-cat';
+import { PracticaNetCatPage } from '../pages/Contenidos/Capitulos/Capitulo 3/Talleres Capitulo 3/NetCat/practica-net-cat/practica-net-cat';
 
 /**Tema 4 inciso 1 */
 import { Tema4_1Page } from '../pages/Contenidos/Capitulos/Capitulo 4/tema4-1/tema4-1';
@@ -129,6 +156,36 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EstadisticasPage,
     AyudasPage,
     AcercaDePage,
+
+    /**Actividades y evaluaciones */
+
+    /**Evaluaciones */
+    Eva1Cap1Page,
+    Eva1Cap2Page,
+    Eva1Cap3Page,
+    Eva1Cap4Page,
+
+    /**Capitulo 1 */
+    Cap1_1aPage,
+    Cap1_1bPage,
+    Cap1_1cPage,
+    Cap1_1dPage,
+    Cap1_1ePage,
+    Cap1_1fPage,
+    Cap1_1gPage,
+
+    /**Capitulo 2 */
+    Cap2_1aPage,
+    Cap2_1bPage,
+    Cap2_1cPage,
+
+    /**Capitulo 3 */
+    Cap3_1aPage,
+    Cap3_1bPage,
+
+    /**Capitulo 4 */
+    Cap4_1aPage,
+    Cap4_1bPage,
 
     /**Selecciones */
     SeleccionCapituloPage,
@@ -229,6 +286,36 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EstadisticasPage,
     AyudasPage,
     AcercaDePage,
+
+    /**Actividades y evaluaciones */
+
+    /**Evaluaciones */
+    Eva1Cap1Page,
+    Eva1Cap2Page,
+    Eva1Cap3Page,
+    Eva1Cap4Page,
+
+    /**Capitulo 1 */
+    Cap1_1aPage,
+    Cap1_1bPage,
+    Cap1_1cPage,
+    Cap1_1dPage,
+    Cap1_1ePage,
+    Cap1_1fPage,
+    Cap1_1gPage,
+
+    /**Capitulo 2 */
+    Cap2_1aPage,
+    Cap2_1bPage,
+    Cap2_1cPage,
+
+    /**Capitulo 3 */
+    Cap3_1aPage,
+    Cap3_1bPage,
+
+    /**Capitulo 4 */
+    Cap4_1aPage,
+    Cap4_1bPage,
 
     /**Selecciones */
     SeleccionCapituloPage,

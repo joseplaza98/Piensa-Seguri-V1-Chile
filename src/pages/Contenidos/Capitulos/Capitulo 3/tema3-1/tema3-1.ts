@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Tema3_1aPage } from '../Contenidos Tema 3-1/tema3-1a/tema3-1a';
 import { Tema3_2aPage } from '../Contenidos Tema 3-2/tema3-2a/tema3-2a';
+import { Eva1Cap3Page } from '../../../Actividades de retroalimentacion/Evaluaciones/eva1-cap3/eva1-cap3';
 
 /**
  * Generated class for the Tema3_1Page page.
@@ -30,6 +31,10 @@ export class Tema3_1Page {
 
   aTema3_2a() {
     this.navCtrl.push(Tema3_2aPage);
+  }
+
+  aEval1_cap3(){
+    this.navCtrl.push(Eva1Cap3Page);
   }
 
 }

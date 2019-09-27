@@ -4,6 +4,7 @@ import { Tema4_1aPage } from '../Contenidos Tema 4-1/tema4-1a/tema4-1a';
 import { Tema4_2aPage } from '../Contenidos Tema 4-2/tema4-2a/tema4-2a';
 
 import { Content } from 'ionic-angular';
+import { Eva1Cap4Page } from '../../../Actividades de retroalimentacion/Evaluaciones/eva1-cap4/eva1-cap4';
 /**
  * Generated class for the Tema4_1Page page.
  *
@@ -37,6 +38,10 @@ export class Tema4_1Page {
 
   scrollToDown() {
     this.content.scrollTo(0,700,400);
+  }
+
+  aEval1_cap4(){
+    this.navCtrl.push(Eva1Cap4Page);
   }
 
 }
